@@ -15,3 +15,12 @@
 * After a play ended, player will see a watch video to enable God Mode option. Hit the button and finish watching the video, text on the button will turn into 'Congrats!', then in your next play, your operation mode will become God Mode.
 
 
+## Folder Structure
+
+```
+ChickenBackHome/
+         ChickenBackHome/
+                       Assets/
+                           ChickenBackGame/
+---  Source code is here --->>         Scripts/
+```
