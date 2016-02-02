@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ChickenBackGame/Scripts/GeneralManagerProxy.cs">
+    <Files>
+      <File FileName="Assets/ChickenBackGame/Scripts/EndScene.cs" Line="54" Column="3" />
+      <File FileName="Assets/ChickenBackGame/Scripts/GeneralManagerProxy.cs" Line="16" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
