@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{185C8D1E-5E27-892C-02C2-DF469A44DC95}</ProjectGuid>
+	<ProjectGuid>{2FCAAFF7-7C57-0FF6-C879-207380A2CFB5}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,7 +46,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\ChickenBackGame\Scripts\ButtonTexts.cs" />
-     <Compile Include="Assets\ChickenBackGame\Scripts\Egg.cs" />
      <Compile Include="Assets\ChickenBackGame\Scripts\EggGenerater.cs" />
      <Compile Include="Assets\ChickenBackGame\Scripts\EndScene.cs" />
      <Compile Include="Assets\ChickenBackGame\Scripts\GUIManager.cs" />
@@ -86,7 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{7DA56917-CA25-5F90-D758-9DB0AA924822}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{F3EDC7AF-922F-B7DA-55C4-8562382640AA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
