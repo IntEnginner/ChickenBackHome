@@ -5,7 +5,7 @@ using UnityEngine.Advertisements;
 
 public class EndScene : MonoBehaviour {
 
-	string gameId = "101694";
+	string gameId = "1044315";
 	string placementId = "rewardedVideo";
 	public bool enableTestMode = false;
 
