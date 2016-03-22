@@ -12,7 +12,6 @@ public class EndScene : MonoBehaviour {
 
 	public Text scoreLabel;
 	public Text godButtonLabel;
-	bool adLoaded;
 	// Use this for initialization
 	void Awake() {
 		GeneralManager.godMode = false;
@@ -30,19 +29,12 @@ public class EndScene : MonoBehaviour {
 	}
 
 	public void GodModeButtonClicked() {
-		if(adLoaded){
-			return;
-		}
 		StartCoroutine (InitializeAd ()); 
 	}
 
 	IEnumerator InitializeAd () {
-		 
-		if (Advertisement.isSupported) { 
-			Advertisement.Initialize(gameId, enableTestMode); 
-		}
 
-		while (!Advertisement.isInitialized || !Advertisement.IsReady(placementId)) {
+		while (!Advertisement.IsReady(placementId)) {
 			SetGodButtonText("Waiting ...");
 			yield return new WaitForSeconds(0.5f);
 		}
@@ -51,8 +43,6 @@ public class EndScene : MonoBehaviour {
 		options.resultCallback = HandleShowResult;
 
 		Advertisement.Show (placementId, options);
-//		Advertisement.Show();
-		adLoaded = true;
 	}
 
 	void HandleShowResult (ShowResult result) {
@@ -61,16 +51,13 @@ public class EndScene : MonoBehaviour {
 		case ShowResult.Finished:
 			SetGodButtonText("Congrats!");
 			GeneralManager.godMode = true;
-//			GeneralManager.StartGame();
 			break;
 		case ShowResult.Skipped:
 			SetGodButtonText("Active god mode by watching a video!!");
-			adLoaded = false;
 			Debug.LogWarning ("Video was skipped.");
 			break;
 		case ShowResult.Failed:
 			SetGodButtonText("Active god mode failed ...");
-			adLoaded = false;
 			Debug.LogWarning ("Video failed to show.");
 			break;
 		}
