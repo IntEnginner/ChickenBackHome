@@ -54,6 +54,11 @@
      <Compile Include="Assets\ChickenBackGame\Scripts\MoveController.cs" />
      <Compile Include="Assets\ChickenBackGame\Scripts\PlayerChicken.cs" />
      <Compile Include="Assets\ChickenBackGame\Scripts\TailChicken.cs" />
+     <Compile Include="Assets\UnityAdsHelper\Examples\Scripts\ButtonExample.cs" />
+     <Compile Include="Assets\UnityAdsHelper\Examples\Scripts\ShowAdOnLoad.cs" />
+     <Compile Include="Assets\UnityAdsHelper\Examples\Scripts\UnityAdsExample.cs" />
+     <Compile Include="Assets\UnityAdsHelper\Scripts\UnityAdsHelper.cs" />
+     <Compile Include="Assets\UnityAdsHelper\Scripts\UnityAdsSettings.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

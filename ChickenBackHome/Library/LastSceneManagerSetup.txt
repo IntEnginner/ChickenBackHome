@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ChickenBackGame/Scenes/HomeScene.unity
+- path: Assets/UnityAdsHelper/Examples/UnityAdsExample.unity
   isLoaded: 1
   isActive: 1
